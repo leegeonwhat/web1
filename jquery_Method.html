@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	body{background:#04293c;color:silver;}
+	table{border-collapse:collapse;margin: auto;border-color:silver}
+	a{text-decoration:none;display:block;color:orange;}
+	</style>
+</head>
+<body>
+
+<table width="696" border="1">
+<tbody>
+<tr>
+<td width="118">$(“p”)</td>
+<td width="578">태그 셀렉터</td>
+</tr>
+<tr>
+<td width="118">$(“.class”)</td>
+<td>클래스 셀렉터</td>
+</tr>
+<tr>
+<td width="118">$(“#id”)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">$(“#id, .class”)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">$(“div ul li”)</td>
+<td>div 아래 ul 아래 li선택</td>
+</tr>
+<tr>
+<td width="118">$(“div &gt; ul”)</td>
+<td>div 바로 아래 자식 ul선택</td>
+</tr>
+<tr>
+<td width="118">$(“div + p”)</td>
+<td>div 바로 옆에 있는 p태그만 선택</td>
+</tr>
+<tr>
+<td width="118"><a href="0628/select.html">$(“div ~ p”)</a></td>
+<td>div와 같은 레벨인 p(형제)</td>
+</tr>
+<tr>
+<td width="118">:animated</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">:eq(index)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">:not</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">:has()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">:parent</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0628/x.html">.pageX</a></td>
+<td>e.pageX == mousemove[page 오른쪽]마우스 위치의 X좌표값</td>
+</tr>
+<tr>
+<td width="118">.pageY</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.childred()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.find()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.next()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.nextAll()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.parent()</td>
+<td>부모요소</td>
+</tr>
+<tr>
+<td width="118">.parents()</td>
+<td>조상요소까지</td>
+</tr>
+<tr>
+<td width="118">.prev()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.closest()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.siblings()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/eqnot.html">.eq()</a></td>
+<td>index번째 요소 구하기</td>
+</tr>
+<tr>
+<td width="118">.has()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.is()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.last()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/eqnot.html">.not()</a></td>
+<td>선택한 요소의 값이 아닌 나머지 모든 값을 선택</td>
+</tr>
+<tr>
+<td width="118">.slice()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.each()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.append()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.appendTo(target)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.prepend()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.prependTo(target)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.after()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.before()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.insertAfter(targer)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.insertBefore(targer)</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.remove</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.html()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.text()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/attr.html">.attr()</a></td>
+<td>속성 get set</td>
+</tr>
+<tr>
+<td width="118">.val()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/0629line.html">.width()</a></td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.height()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/0629line.html">.offset()</a></td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.scrollLeft()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.scrollTop()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/attr.html">.css()</a></td>
+<td>css속성 변경</td>
+</tr>
+<tr>
+<td width="118">.addClass()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.removeClass()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.on()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.off()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.triggle()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.click()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.dbclick()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.hover()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mousedown()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mouseout()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mouseover()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mouseup()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mouseenter()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mouseleave()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.mousemove()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.resize()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.scroll()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.ready()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.load()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.offsetX</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.offsetY</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.target</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.hide()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.show()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.toggle()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/attr.html">.fadeIn()</a></td>
+<td></td>
+</tr>
+<tr>
+<td width="118"><a href="0629/attr.html">.fadeOut()</a></td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.fadeTo()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.fadeToggle()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.slideDown()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.slideUp()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.slideToggle()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.animation()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.delay()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">.stop()</td>
+<td></td>
+</tr>
+<tr>
+<td width="118">Callback이란?</td>
+<td></td>
+</tr>
+</tbody>
+</table>	
+</body>
+</html>
